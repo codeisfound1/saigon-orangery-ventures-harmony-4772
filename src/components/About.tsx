@@ -15,15 +15,15 @@ const About: React.FC<AboutProps> = ({ className }) => {
           <FadeIn className="md:col-span-5">
             <div className="flex flex-col space-y-6">
               <div>
-                <span className="text-sm md:text-base font-medium text-orangery-500 mb-2 inline-block">About us</span>
-                <h2 className="text-3xl md:text-5xl font-serif font-medium tracking-tight mb-6">We got started 2025 with a single mission</h2>
+                <span className="text-sm md:text-base font-medium text-orangery-500 mb-2 inline-block">Về chúng tôi</span>
+                <h2 className="text-3xl md:text-5xl font-serif font-medium tracking-tight mb-6">Thành lập năm 2025 với sứ mệnh</h2>
               </div>
               
               <p className="text-lg text-muted-foreground">
-                To bring a fresh take into Baltic venture ecosystem.
+                Mang đến trải nghiệm môi giới chuyên nghiệp cho khách hàng tại khu trung tâm TP.HCM.
               </p>
               <p className="text-lg text-muted-foreground">
-                We are founder-driven and embrace diversity. Orangery brings an inclusive take to venture, inviting and inspiring first-time founders to try tech entrepreneurship.
+                Saigon Property đặt khách hàng làm trung tâm, cam kết minh bạch và tốc độ. Chúng tôi hiểu thị trường từng tuyến đường, dự án cốt lõi để tối ưu giá trị giao dịch của bạn.
               </p>
             </div>
           </FadeIn>

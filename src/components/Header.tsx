@@ -51,7 +51,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
           to="/" 
           className="text-xl font-serif font-medium tracking-tight transition-opacity hover:opacity-80"
         >
-          Orangery Ventures
+          Saigon Property
         </NavLink>
         
         <div className="hidden md:flex items-center space-x-8">
@@ -98,7 +98,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
             )}
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Home
+          Trang chủ
           </NavLink>
           <button 
             className="text-left hover:text-orangery-500 transition-colors"
@@ -107,7 +107,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
               setIsMobileMenuOpen(false);
             }}
           >
-            Thesis
+            Khu trung tâm
           </button>
           <button 
             className="text-left hover:text-orangery-500 transition-colors"
@@ -116,7 +116,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
               setIsMobileMenuOpen(false);
             }}
           >
-            Investment
+            Bất động sản
           </button>
         </nav>
       </div>
@@ -134,19 +134,19 @@ const NavLinks: React.FC<NavLinksProps> = ({ scrollToSection }) => (
       className="text-sm font-medium hover:text-orangery-500 transition-colors"
       onClick={() => scrollToSection('home')}
     >
-      Home
+      Trang chủ
     </button>
     <button 
       className="text-sm font-medium hover:text-orangery-500 transition-colors"
       onClick={() => scrollToSection('thesis')}
     >
-      Thesis
+      Khu trung tâm
     </button>
     <button 
       className="text-sm font-medium hover:text-orangery-500 transition-colors"
       onClick={() => scrollToSection('investment')}
     >
-      Investment
+      Bất động sản
     </button>
   </>
 );

@@ -32,7 +32,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
             <div className="relative h-[500px] lg:h-[600px] w-full rounded-lg overflow-hidden">
               <img 
                 src="/lovable-uploads/47f9a1d0-4458-400a-8fc0-79adf093cf18.png"
-                alt="Interior with palm trees and ornate architecture"
+                alt="Không gian nội thất với cây cọ và kiến trúc trang trí"
                 className="w-full h-full object-cover"
               />
             </div>

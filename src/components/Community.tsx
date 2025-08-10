@@ -11,12 +11,12 @@ interface CommunityProps {
 const Community: React.FC<CommunityProps> = ({ className }) => {
   const pillars = [
     {
-      title: "Community",
-      description: "Community before investing - connecting promising entrepreneurs with dedicated events"
+      title: "Cộng đồng",
+      description: "Ưu tiên xây dựng cộng đồng trước khi đầu tư – kết nối doanh nhân tiềm năng qua các sự kiện chuyên biệt"
     },
     {
-      title: "Media",
-      description: "Media + content to build the narrative around technology and diverse teams - and help them build momentum"
+      title: "Truyền thông",
+      description: "Nội dung & truyền thông để kể câu chuyện về công nghệ và các đội ngũ đa dạng – giúp họ tạo đà phát triển"
     }
   ];
 
@@ -25,13 +25,13 @@ const Community: React.FC<CommunityProps> = ({ className }) => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto mb-16">
           <FadeIn>
-            <h2 className="text-3xl md:text-4xl font-serif mb-8 text-center">Community and Media</h2>
+            <h2 className="text-3xl md:text-4xl font-serif mb-8 text-center">Cộng đồng & Truyền thông</h2>
           </FadeIn>
           
           <FadeIn delay={100}>
             <p className="text-xl text-center mb-12">
-              We want to unlock new diverse team formation by bringing the powers of community and media.
-              With media and community events, we will be connecting with future entrepreneurs earlier.
+              Chúng tôi thúc đẩy việc hình thành các đội ngũ đa dạng thông qua sức mạnh của cộng đồng và truyền thông.
+              Thông qua nội dung và các sự kiện cộng đồng, chúng tôi kết nối với doanh nhân tương lai sớm hơn.
             </p>
           </FadeIn>
         </div>

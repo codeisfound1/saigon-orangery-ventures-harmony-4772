@@ -10,20 +10,20 @@ interface FoundersInSearchProps {
 const FoundersInSearch: React.FC<FoundersInSearchProps> = ({ className }) => {
   const founderTypes = [
     {
-      title: "Illegible Founders",
-      description: "Those who reject easy categorization, whether due to unconventional backgrounds, markets, or business models. We specialize in funding what others overlook."
+      title: "Nhà sáng lập khó phân loại",
+      description: "Những người không dễ xếp vào khuôn mẫu, với nền tảng, thị trường hoặc mô hình kinh doanh khác thường. Chúng tôi chuyên hỗ trợ điều mà người khác bỏ qua."
     },
     {
-      title: "First-Time Founders with Significant Non-Tech Experience",
-      description: "Corporate leaders, operators, and business owners making the leap into startups, bringing unique domain expertise and execution ability."
+      title: "Nhà sáng lập lần đầu với kinh nghiệm ngoài công nghệ",
+      description: "Lãnh đạo doanh nghiệp, vận hành, chủ doanh nghiệp chuyển mình sang startup, mang theo lợi thế chuyên môn và năng lực thực thi."
     },
     {
-      title: "Academic Innovators & Researchers",
-      description: "Scientists and academics with deep technical knowledge and IP-driven innovations seeking to commercialize their research through entrepreneurship."
+      title: "Nhà nghiên cứu & học thuật",
+      description: "Các nhà khoa học, học giả với tri thức chuyên sâu và sáng chế IP, muốn thương mại hóa nghiên cứu thông qua khởi nghiệp."
     },
     {
-      title: "Gender-Diverse Teams",
-      description: "Backing women leaders and mixed-gender founding teams who bring fresh perspectives and collaborative approaches to building transformative companies."
+      title: "Đội ngũ đa dạng giới",
+      description: "Ủng hộ phụ nữ lãnh đạo và đội ngũ đa giới, mang góc nhìn mới và cách tiếp cận hợp tác để xây dựng công ty đột phá."
     }
   ];
 
@@ -32,7 +32,7 @@ const FoundersInSearch: React.FC<FoundersInSearchProps> = ({ className }) => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto mb-16">
           <FadeIn>
-            <h2 className="text-3xl md:text-4xl font-serif mb-8 text-center">Founders we back</h2>
+            <h2 className="text-3xl md:text-4xl font-serif mb-8 text-center">Những nhà sáng lập chúng tôi hỗ trợ</h2>
           </FadeIn>
         </div>
         

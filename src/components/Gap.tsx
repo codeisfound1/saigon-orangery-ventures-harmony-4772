@@ -16,9 +16,9 @@ const Gap: React.FC<GapProps> = ({ className }) => {
   const [email, setEmail] = useState('');
   
   const messages = [
-    "List of top 50 active Baltic early stage VCs",
-    "All Baltic female founders who raised capital 2024",
-    "AI-native Baltic startups that secured funding this year"
+    "Danh sách 50 quỹ VC giai đoạn sớm hoạt động tại Baltic",
+    "Các nữ sáng lập Baltic gọi vốn năm 2024",
+    "Các startup AI tại Baltic đã gọi vốn trong năm nay"
   ];
   
   React.useEffect(() => {
@@ -40,25 +40,25 @@ const Gap: React.FC<GapProps> = ({ className }) => {
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
     if (email) {
-      console.log('Subscribing email:', email);
+      console.log('Đăng ký email:', email);
       // Here you would typically send this to a backend
-      alert(`Thanks for subscribing with ${email}!`);
+      alert(`Cảm ơn bạn đã đăng ký với ${email}!`);
       setEmail('');
     }
   };
 
   const statistics = [
     {
-      title: "Stagnant Growth",
-      description: "Number of early stage rounds is not growing in the Baltics since 2021"
+      title: "Tăng trưởng trì trệ",
+      description: "Số vòng gọi vốn giai đoạn sớm tại Baltic không tăng kể từ 2021"
     },
     {
-      title: "Limited Ecosystem",
-      description: "Total number of startups in Lithuania is stagnant for more than 5 years ~ 800"
+      title: "Hệ sinh thái hạn chế",
+      description: "Tổng số startup ở Lithuania gần như đi ngang hơn 5 năm ~ 800"
     },
     {
-      title: "Funding Inequality",
-      description: "90% of VC funding still goes to repeat founders and traditional tech backgrounds"
+      title: "Bất bình đẳng vốn",
+      description: "90% vốn VC vẫn chảy vào nhà sáng lập lặp lại và nền tảng công nghệ truyền thống"
     }
   ];
 
@@ -67,12 +67,12 @@ const Gap: React.FC<GapProps> = ({ className }) => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto mb-16">
           <FadeIn>
-            <h2 className="text-3xl md:text-4xl font-serif mb-8 text-center">The Gap</h2>
+            <h2 className="text-3xl md:text-4xl font-serif mb-8 text-center">Khoảng trống</h2>
           </FadeIn>
           
           <FadeIn delay={100}>
             <p className="text-xl text-center mb-8">
-              Narrow founder pipeline - missed opportunities, slow growth
+              Nguồn nhà sáng lập hạn hẹp – bỏ lỡ cơ hội, tăng trưởng chậm
             </p>
           </FadeIn>
         </div>
@@ -96,7 +96,7 @@ const Gap: React.FC<GapProps> = ({ className }) => {
               <div className="w-full h-[500px] overflow-hidden">
                 <img 
                   src="/lovable-uploads/dabbf929-5dd0-4794-a011-fe43bf4b3418.png" 
-                  alt="Beautiful orangery with palm trees and plants" 
+                  alt="Nhà kính đẹp với cây cọ và cây xanh" 
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-black/30"></div>
@@ -105,7 +105,7 @@ const Gap: React.FC<GapProps> = ({ className }) => {
               {/* Centered newsletter box overlaid on the image */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="bg-white/90 backdrop-blur-sm p-8 rounded-lg shadow-md max-w-md w-full mx-4">
-                  <h3 className="text-2xl font-serif mb-6 text-center">Subscribe for Updates</h3>
+                  <h3 className="text-2xl font-serif mb-6 text-center">Đăng ký nhận cập nhật</h3>
                   
                   <div className="flex justify-center mb-6">
                     <Button 
@@ -124,7 +124,7 @@ const Gap: React.FC<GapProps> = ({ className }) => {
                   <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3">
                     <Input 
                       type="email" 
-                      placeholder="Enter your email" 
+                      placeholder="Nhập email của bạn" 
                       className="text-gray-800 bg-gray-50/80 border-gray-200 focus-visible:ring-gray-500" 
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
@@ -134,7 +134,7 @@ const Gap: React.FC<GapProps> = ({ className }) => {
                       type="submit" 
                       className="bg-gray-600 hover:bg-gray-700 text-white"
                     >
-                      Subscribe
+                      Đăng ký
                     </Button>
                   </form>
                 </div>
